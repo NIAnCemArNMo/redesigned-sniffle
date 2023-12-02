@@ -10,8 +10,6 @@ curl -s -L -o C:\Users\Public\Desktop\Winrar.exe https://www.rarlab.com/rar/winr
 powershell -Command "Invoke-WebRequest 'https://github.com/chieunhatnang/VM-QuickConfig/releases/download/1.6.1/VMQuickConfig.exe' -OutFile 'C:\Users\Public\Desktop\VMQuickConfig.exe'"
 C:\Users\Public\Desktop\Winrar.exe /S
 del C:\Users\Public\Desktop\Winrar.exe
-del /f "C:\Users\Public\Desktop\Epic Games Launcher.lnk" > errormsg.txt 2>&1
-del /f "C:\Users\Public\Desktop\Unity Hub.lnk" > errormsg.txt 2>&1
 set password=@#Disala123456
 powershell -Command "Set-LocalUser -Name 'runneradmin' -Password (ConvertTo-SecureString -AsPlainText '%password%' -Force)"
 start "" "rustdesk.exe"
