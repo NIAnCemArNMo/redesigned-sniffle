@@ -18,9 +18,10 @@ jobs:
         run: cmd /c show.bat
 
       - name: Time Counter
-        run: |
-          python time.py
-          python time.py
-          python time.py
-          python time.py
-          python time.py
+        run: python time.py
+
+      - name: Time Counter 2
+        run: python time.py
+
+      - name: Time Counter 3
+        run: python time.py
