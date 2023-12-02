@@ -1,6 +1,2 @@
-import psutil
-import subprocess
 import time
-
-while True:
-    time.sleep(10)  # Adjust the sleep duration as needed
+time.sleep(300)
